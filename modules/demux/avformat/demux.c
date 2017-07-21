@@ -253,8 +253,8 @@ int OpenDemux( vlc_object_t *p_this )
     }
     free(psz_opts);
     vlc_avcodec_lock(); /* avformat calls avcodec behind our back!!! */
-    p_sys->ic->probesize = 1000;
-    p_sys->ic->max_analyze_duration = 1000;
+    //p_sys->ic->probesize = 1000;
+    //p_sys->ic->max_analyze_duration = 1000;
     //p_sys->ic->flags |= AVFMT_FLAG_NOBUFFER;
     error = avformat_find_stream_info( p_sys->ic, options );
     /* FIXME: what if nb_streams change after that call? */
