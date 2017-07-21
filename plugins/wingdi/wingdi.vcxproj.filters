@@ -27,9 +27,6 @@
     <ClCompile Include="stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="wingdi.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\modules\video_output\msw\common.c">
       <Filter>modules\video_output\msw</Filter>
     </ClCompile>
@@ -38,6 +35,9 @@
     </ClCompile>
     <ClCompile Include="..\..\modules\video_output\msw\wingdi.c">
       <Filter>modules\video_output\msw</Filter>
+    </ClCompile>
+    <ClCompile Include="wingdi2.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -56,7 +56,7 @@
     <ClInclude Include="stdafx.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="wingdi.h">
+    <ClInclude Include="wingdi2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
